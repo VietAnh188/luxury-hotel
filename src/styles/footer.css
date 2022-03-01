@@ -1,0 +1,84 @@
+#footer {
+    position: relative;
+    width: 100%;
+    background-color: var(--dark-blue-primary);
+}
+#footer:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    display: block;
+    width: 0px;
+    border-bottom: 50px solid var(--dark-blue-primary);
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+}
+#footer .content {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#footer .content > div {
+    position: relative;
+    width: calc(100% / 4);
+    color: rgba(255, 255, 255, 0.8);
+}
+#footer .content .info .logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+#footer .content .info .logo p:last-child {
+    font-size: 10px;
+}
+#footer .content .info > p {
+    width: 80%;
+    font-size: 10px;
+    line-height: 1.4;
+}
+#footer .content .about ul {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    text-transform: capitalize;
+}
+#footer .content .social > div {
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#footer .content .social div > div {
+    display: flex;
+    margin: 20px 0;
+}
+#footer .content .social div > div i {
+    margin-right: 15px;
+}
+#footer .content .subscribe form div {
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+}
+#footer .content .subscribe form input {
+    width: 60%;
+    border: 1px solid var(--yellow-primary);
+    outline: none;
+    font-size: 15px;
+    padding-left: 20px;
+}
+#footer .content .subscribe form button {
+    padding: 10px 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

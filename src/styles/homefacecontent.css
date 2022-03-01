@@ -1,0 +1,28 @@
+#content {
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+#content p:nth-child(1),
+#content p:nth-child(2),
+#content p:nth-child(3) {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+#content p:nth-child(1) {
+    font-size: 40px;
+}
+#content p:nth-child(2) {
+    font-size: 100px;
+    font-weight: bold;
+}
+#content p:nth-child(3) {
+    font-size: 40px;
+    font-weight: bold;
+}
+#content p:nth-child(4) {
+    width: 65%;
+    line-height: 1.5;
+}

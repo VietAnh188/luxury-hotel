@@ -1,0 +1,35 @@
+.types-room {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    margin: 40px 0;
+    color: var(--dark-blue-primary);
+}
+.types-room .description {
+    flex: 1;
+    margin-right: 30px;
+    border-left: 2px solid gray;
+    padding-left: 20px;
+}
+.types-room .description .content .content-title {
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.types-room .description .content .content-sub-title {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.types-room .image {
+    flex: 1.5;
+    margin-left: 30px;
+    height: 100%;
+}
+.types-room .image img {
+    height: 100%;
+    width: 100%;
+}
+.types-room .description button {
+    padding: 10px 50px;
+    font-size: 20px;
+}

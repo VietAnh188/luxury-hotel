@@ -1,0 +1,20 @@
+#sub-footer {
+    text-align: center;
+    padding: 30px 0 100px 0;
+    color: var(--dark-blue-primary);
+}
+#sub-footer p {
+    margin: 20px 0;
+}
+#sub-footer .sub-footer-header {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#sub-footer .sub-footer-author {
+    font-size: 12px;
+}
+#sub-footer .sub-button button {
+    padding: 10px 15px;
+    margin: 0 10px;
+}
