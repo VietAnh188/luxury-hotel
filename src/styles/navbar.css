@@ -52,6 +52,7 @@
 #navbar .logo-container .logo-item p {
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: var(--dark-blue-primary);
 }
 #navbar .logo-container .logo-item p:first-child {
     font-size: 35px;

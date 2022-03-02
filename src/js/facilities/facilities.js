@@ -30,5 +30,3 @@ const footerFacilities = document.querySelector('#facilitiespage .footer')
 facilities.handleRenderFacilitiesItem(listFacilities, data)
 facilities.handleRenderSubFooter(subFooterFacilities)
 facilities.handleRenderFooter(footerFacilities)
-
-export default facilities

@@ -4,7 +4,93 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./src/styles/reset.css" />
+        <link rel="stylesheet" href="./src/styles/base.css" />
+        <link rel="stylesheet" href="./src/styles/contactus.css" />
         <title>Document</title>
+        <script type="module" src="./src/js/contactus/contactus.js"></script>
     </head>
-    <body></body>
+    <body>
+        <div id="contactpage">
+            <div class="header">
+                <div class="container">
+                    <span class="navbar">
+                        <div id="navbar">
+                            <div class="logo-container">
+                                <div class="logo-item">
+                                    <p>luxury</p>
+                                    <p>hotels</p>
+                                </div>
+                            </div>
+                            <div class="navigate-container">
+                                <ul>
+                                    <li class="navigate-item">
+                                        <a href="./index.html">Home</a>
+                                    </li>
+                                    <li class="navigate-item">
+                                        <a href="./facilities.html"
+                                            >Facilities</a
+                                        >
+                                    </li>
+                                    <li class="navigate-item">
+                                        <a href="./rooms.html">Rooms</a>
+                                    </li>
+                                    <li class="navigate-item active">
+                                        <a href="./contact.html">Contact-us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <p>contact-us</p>
+            </div>
+            <div class="middle-content">
+                <div class="container">
+                    <div class="head-title">
+                        <p>we are here for you</p>
+                        <p>
+                            At Luxury Hotels, we take our customers seriously.
+                            Do you have any enquiries, compaints or requests,
+                            please forward it to our support desk and we will
+                            get back to you as soon as possible.
+                        </p>
+                    </div>
+                    <div class="content">
+                        <div class="content-left">
+                            <div>
+                                <p>497 evergreen rd. roseville, CA 95673</p>
+                                <p>view map</p>
+                                <p>
+                                    Phone: +44 345 678 903 Email:
+                                    luxury_hotels@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <form>
+                                <label for="input-name">name</label><br />
+                                <input id="input-name" type="text" /><br />
+                                <label for="input-email">email address</label
+                                ><br />
+                                <input id="input-email" type="email" /><br />
+                                <label for="input-message">message</label><br />
+                                <textarea
+                                    id="input-message"
+                                    cols="30"
+                                    rows="10"
+                                ></textarea>
+                                <button class="button-primary">submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="footer"></span>
+        </div>
+    </body>
 </html>

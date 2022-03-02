@@ -11,18 +11,28 @@ body {
     background-repeat: no-repeat;
 } */
 #homepage .head-title,
-#facilitiespage .head-title {
+#facilitiespage .head-title,
+#roomspage .head-title,
+#contactpage .head-title {
     margin: 40px 0;
     text-align: center;
     color: var(--dark-blue-primary);
 }
+#contactpage .head-title {
+    text-align: left;
+    margin: 100px 0 50px;
+}
 
-#facilitiespage .head-title p:first-child {
+#contactpage .head-title p:first-child,
+#facilitiespage .head-title p:first-child,
+#roomspage .head-title p:first-child {
     font-size: 40px;
     text-transform: uppercase;
 }
 
-#facilitiespage .head-title p:last-child {
+#contactpage .head-title p:last-child,
+#facilitiespage .head-title p:last-child,
+#roomspage .head-title p:last-child {
     margin: 20px 0;
     line-height: 1.5;
 }

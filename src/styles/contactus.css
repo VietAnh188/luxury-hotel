@@ -1,0 +1,65 @@
+@import url('./navbar.css');
+@import url('./blockheader.css');
+@import url('./footer.css');
+
+#contactpage .middle-content {
+    height: 800px;
+}
+
+#contactpage .content {
+    display: flex;
+    color: var(--dark-blue-primary);
+    text-transform: capitalize;
+}
+
+#contactpage .content > div {
+    width: 50%;
+}
+
+#contactpage .content .content-left > div {
+    width: 80%;
+}
+#contactpage .content .content-left > div p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--dark-blue-primary);
+}
+#contactpage
+    .content
+    .content-left
+    > div
+    p:not(#contactpage .content .content-left > div p:nth-child(1)) {
+    margin-top: 20px;
+}
+#contactpage .content .content-left > div p:nth-child(2) {
+    font-weight: bold;
+}
+
+#contactpage .content .content-right {
+    position: relative;
+}
+
+#contactpage .content .content-right form {
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+}
+#contactpage .content .content-right form input {
+    height: 20px;
+    width: 150%;
+}
+#contactpage .content .content-right form textarea {
+    width: 150%;
+    height: 200px;
+}
+#contactpage .content .content-right form input,
+#contactpage .content .content-right form textarea {
+    margin: 10px 0 15px;
+}
+
+#contactpage .content .content-right form button {
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px 50px;
+    position: absolute;
+}

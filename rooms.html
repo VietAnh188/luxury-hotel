@@ -4,27 +4,27 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Hotel</title>
         <link
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./src/styles/reset.css" />
         <link rel="stylesheet" href="./src/styles/base.css" />
-        <link rel="stylesheet" href="./src/styles/facilities.css" />
-        <script type="module" src="./src/js/facilities/facilities.js"></script>
+        <link rel="stylesheet" href="./src/styles/rooms.css" />
+        <title>Hotel</title>
+        <script type="module" src="./src/js/rooms/rooms.js"></script>
         <style>
             #home-face {
                 width: 100%;
                 height: 100vh;
-                background-image: url('./src/img/facilities/palm-trees-at-night-258154\ 1.jpg');
+                background-image: url('./src/img/rooms/apartment-bed-bedroom-chair-271618\ 1.jpg');
                 background-size: 100% 100%;
                 background-repeat: no-repeat;
             }
         </style>
     </head>
     <body>
-        <div id="facilitiespage">
+        <div id="roomspage">
             <div id="home-face">
                 <span id="blur"></span>
                 <div class="container">
@@ -41,12 +41,12 @@
                                     <li class="navigate-item">
                                         <a href="./index.html">Home</a>
                                     </li>
-                                    <li class="navigate-item active">
+                                    <li class="navigate-item">
                                         <a href="./facilities.html"
                                             >Facilities</a
                                         >
                                     </li>
-                                    <li class="navigate-item">
+                                    <li class="navigate-item active">
                                         <a href="./rooms.html">Rooms</a>
                                     </li>
                                     <li class="navigate-item">
@@ -78,30 +78,43 @@
             </div>
             <div class="container">
                 <div class="head-title">
-                    <p>facilities</p>
+                    <p>rooms and rates</p>
                     <p>
-                        We want your stay at our lush hotel to be truly
-                        unforgettable. That is why we give special attention to
-                        all of your needs so that we can ensure an experience
-                        quite uniquw. Luxury hotels offers the perfect setting
-                        with stunning views for leisure and our modern luxury
-                        resort facilities will help you enjoy the best of all.
+                        Each of our bright, light-flooded rooms come with
+                        everything you could possibly need for a comfortable
+                        stay. And yes, comfort isn’t our only objective, we also
+                        value good design, sleek contemporary furnishing
+                        complemented by the rich tones of nature’s palette as
+                        visible from our rooms’ sea-view windows and terraces.
                     </p>
                 </div>
                 <div class="list">
-                    <!-- <div id="facilities-item">
+                    <!-- <div class="rooms-item">
                         <img
-                            src="./src/img/facilities/humphrey-muleba-LOA2mTj1vhc-unsplash 1.png"
+                            src="./src/img/rooms/devon-janse-van-rensburg-_WEDFTZV0qU-unsplash 1.png"
                             alt=""
                         />
                         <div class="name">
-                            <p>the gym</p>
+                            <p>single room</p>
+                        </div>
+                        <div class="detail">
+                            <div class="view">
+                                <button class="button-primary">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                                <p>view room details</p>
+                            </div>
+                            <div class="price">
+                                <button class="button-primary">
+                                    $147 Avg/night
+                                </button>
+                            </div>
                         </div>
                     </div> -->
                 </div>
-                <span class="sub-footer"> </span>
             </div>
-            <span class="footer"> </span>
+            <span class="sub-footer"></span>
+            <span class="footer"></span>
         </div>
     </body>
 </html>

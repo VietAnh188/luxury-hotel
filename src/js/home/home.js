@@ -17,7 +17,7 @@ const home = {
                     </div>
                     <div class="image">
                         <img
-                            src=${item.image}
+                            src="${item.image}"
                             alt=""
                         />
                     </div>
@@ -36,5 +36,3 @@ const footerElement = document.querySelector('#homepage .footer')
 home.handleRenderTypeRoom(list, data)
 home.handleRenderFooter(footerElement)
 home.handleRenderSubFooter(subFooterElement)
-
-export default home
